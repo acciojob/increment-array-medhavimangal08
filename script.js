@@ -3,7 +3,7 @@ function incrementArray(arr) {
   //your code here
 	let newarray=[]
 	for(let a of arr){
-		new.push(++a)
+		newarray.push(++a)
 	}
 	return newarray
 }
